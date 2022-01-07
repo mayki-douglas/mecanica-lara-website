@@ -1,0 +1,47 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#topo{
+    width: 100%;
+    height: 25%;
+    background-image: url(../img/mecanica.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-color: #212832;
+    background-position: center;
+}
+
+.cabecalho-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 60px;
+    font-family:sans-serif
+}
+
+.home{
+    display: flex;
+    padding-left: 100px;
+}
+
+.empresa{
+    display: flex;
+    padding-right: 750px;
+}
+
+.servicos{
+    display: flex;
+    padding-right: 100px;
+}
